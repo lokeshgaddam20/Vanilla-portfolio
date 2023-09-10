@@ -63,7 +63,11 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about-containers,
+  
+  .about-containers{
+    flex-direction: row;
+  }
+
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
@@ -99,5 +103,6 @@
   }
   .text-container {
     text-align: justify;
+    line-height: 1.5;
   }
 }
