@@ -195,6 +195,12 @@ section {
   margin-bottom: 1rem;
 }
 
+.profile-pic{
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+}
+
 .title {
   font-size: 3rem;
   text-align: center;
